@@ -16,7 +16,7 @@ conda activate cde
 pip install -r requirements_ebr.txt
 ```
 
-The toy example is included in the [jupyter notebook](Balanced-Recourse/balanced_recourse.ipynb). 
+The toy example is included in the [jupyter notebook](/balanced_recourse.ipynb). 
 
 The implementation of IBR is included in balancevae.py. You need to create a method in the carla package under ./carla/recourse_methods/autoencoder/models/ to run the method. An example of EBR is included in EBR.ipynb. 
 
